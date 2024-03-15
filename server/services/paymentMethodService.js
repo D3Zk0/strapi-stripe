@@ -18,6 +18,7 @@ module.exports = () => ({
 
       // card payment method
       if (paymentMethods.includes('card')) payments.push('card');
+      if (paymentMethods.includes('paypal')) payments.push('paypal');
 
       // sepa payment method
       if (

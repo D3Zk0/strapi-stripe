@@ -459,6 +459,7 @@ const Configuration = () => {
                   withTags
                 >
                   <Option value="card">Credit Card/Debit Card</Option>
+                  <Option value="paypal">Paypal</Option>
                   <Option value="sepa_debit"> SEPA Direct Debit</Option>
                   <Option value="us_bank_account">ACH Direct Debit</Option>
                   <Option value="alipay">Alipay</Option>
